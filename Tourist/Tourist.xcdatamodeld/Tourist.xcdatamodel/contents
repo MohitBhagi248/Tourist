@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlacesData" representedClassName="PlacesData" syncable="YES" codeGenerationType="class">
+        <attribute name="img1Data" optional="YES" attributeType="Binary"/>
+        <attribute name="img2Data" optional="YES" attributeType="Binary"/>
+        <attribute name="img3Data" optional="YES" attributeType="Binary"/>
+        <attribute name="isArchived" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="placeID" optional="YES" attributeType="String"/>
+        <attribute name="placeName" optional="YES" attributeType="String"/>
+        <attribute name="videoPath" optional="YES" attributeType="String"/>
+        <attribute name="videoThumb" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="PlacesData" positionX="-63" positionY="-18" width="128" height="179"/>
+    </elements>
+</model>
